@@ -1,0 +1,68 @@
+body{
+  margin:0;
+  background-color: #FCD9D9;
+}
+header{
+  font-size: 50px;
+  margin: 10px;
+}
+p{
+  margin: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+.container2{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  height: 100vh;
+}  
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  height: 75%;
+  
+}
+.paragraph{
+  justify-content: left;
+  width: 70%;
+  height:100%;
+}
+.music{
+  height: 100px;
+  width: 30%;
+  height:100%;
+  border-left-style: dashed;
+  border-color: purple;
+  border-left-width: 2px;
+}
+.valentines{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+.container3{
+  display: flex;
+  border-top-style: dashed;
+  border-width: 2px;
+  border-color: purple;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 25hv;
+}
+.lillies{
+  flex:1;
+  max-width: 350px;
+}
+
+.question{
+  font-size: 30 px;
+}
